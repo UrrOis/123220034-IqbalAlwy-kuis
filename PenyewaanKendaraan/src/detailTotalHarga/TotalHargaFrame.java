@@ -19,10 +19,10 @@ public class TotalHargaFrame extends JFrame {
         setSize(300, 250);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
-        // Calculate total harga
+        //Perhitungan total harga
         int totalHarga = hargaPerHari * hari;
 
-        // Initialize components
+        // Inisialisasi components
         namaLabel = new JLabel("Nama: " + nama);
         teleponLabel = new JLabel("Telepon: " + telepon);
         kendaraanLabel = new JLabel("Kendaraan: " + kendaraan + " - Rp. " + hargaPerHari + "/hari");
@@ -34,7 +34,7 @@ public class TotalHargaFrame extends JFrame {
         // Set layout
         setLayout(new GridLayout(7, 1));
 
-        // Add components to frame
+        // Tambah components ke frame
         add(namaLabel);
         add(teleponLabel);
         add(kendaraanLabel);

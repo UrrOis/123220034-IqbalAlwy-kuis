@@ -16,22 +16,19 @@ public class PilihanKendaraanFrame extends JFrame {
         setSize(300, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
-        // Initialize components
+        // Inisialisasi components
         motorButton = new JButton("Motor");
         mobilButton = new JButton("Mobil");
 
         // Set layout
         setLayout(new FlowLayout());
 
-        // Add components to frame
+        // Tambah components ke frame
         add(motorButton);
         add(mobilButton);
         
-        /*
-        
-        
-        
-        // Add action listeners to buttons
+        /**
+        // Tambah listeners ke buttons
         motorButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 // Create and show detail frame for motor
@@ -50,7 +47,7 @@ public class PilihanKendaraanFrame extends JFrame {
             }
         });
         */
-        // Set frame visible
+        // Set frame
         setVisible(true);
     }
 }

@@ -17,7 +17,7 @@ public class DetailPenyewaanFrame extends JFrame {
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
-        // Initialize components
+        // Inisialisasi components
         namaField = new JTextField(20);
         teleponField = new JTextField(20);
         kendaraanButtons = new JRadioButton[3];
@@ -30,7 +30,7 @@ public class DetailPenyewaanFrame extends JFrame {
         // Set layout
         setLayout(new GridLayout(6, 1));
 
-        // Add components to frame
+        // Tambah components ke frame
         add(new JLabel("Nama Penyewa:"));
         add(namaField);
         add(new JLabel("Nomor Telepon:"));
@@ -45,7 +45,7 @@ public class DetailPenyewaanFrame extends JFrame {
         add(hariField);
         add(simpanButton);
 
-        // Set frame visible
+        // Set frame
         setVisible(true);
     }
 
